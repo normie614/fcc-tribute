@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    background-color: #fff;
+    padding: 20px 15px;
+}
+
+body {
+    background-color: #DCDCDC;
+}
+
+#header {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#header h1 {
+    padding-top: 20px;
+}
+
+#header p {
+    margin: 15px 0 20px;
+}
+
+#img-div {
+    padding: 65px 50px 20px;
+    background-color: #fff;
+}
+
+#image {
+    max-width: 100%;
+}
+
+#img-caption {
+    margin-top: 10px;
+}
+
+#main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#main h2 {
+    margin: 50px 0;
+}
+
+#list {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#list li {
+    margin: 0 0 20px;
+}
+
+#tribute-link {
+    color: #087F8C;
+    text-decoration: none;
+}
+
+footer {
+    color: #000000;
+    padding-bottom: 20px;
+    margin: 0 5px 0;
+}
+
+    /* Styles */
+
+.center {
+    text-align: center;
+}
+
+.light {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.7em;
+}
+
+.regular {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1.7em;
+}
+
+.bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.bold2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.bold3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+/* Quary */
+
+@media screen and (max-width: 550px) {
+    html {
+        padding: 0px;
+    }
+
+    #img-div {
+        padding: 10px 10px 10px;
+        background-color: #fff;
+    }
+
+    #main {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
