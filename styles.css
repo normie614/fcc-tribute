@@ -13,7 +13,7 @@ body {
 }
 
 #header {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -31,6 +31,7 @@ body {
 }
 
 #image {
+    display: block;
     max-width: 100%;
 }
 
@@ -61,8 +62,7 @@ body {
     text-decoration: none;
 }
 
-footer {
-    color: #000000;
+#footer {
     padding-bottom: 20px;
     margin: 0 5px 0;
 }
@@ -113,7 +113,7 @@ footer {
     }
 
     #img-div {
-        padding: 10px 10px 10px;
+        padding: 15px 10px 10px;
         background-color: #fff;
     }
 
